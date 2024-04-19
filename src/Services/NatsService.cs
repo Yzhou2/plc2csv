@@ -30,6 +30,5 @@ public class NatsService
     catch (Exception ex)
     {
         Console.WriteLine($"Error subscribing to '{subject}': {ex.Message}");
-        // You can add more detailed logging or error handling here as needed
     }
 }
