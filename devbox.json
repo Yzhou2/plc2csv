@@ -1,0 +1,17 @@
+{
+  "packages": [
+    "nats-top@0.6.1",
+    "nats-server@2.10.12",
+    "natscli@0.1.4"
+  ],
+  "shell": {
+    "init_hook": [
+      "echo 'Welcome to devbox!' > /dev/null"
+    ],
+    "scripts": {
+      "test": [
+        "echo \"Error: no test specified\" && exit 1"
+      ]
+    }
+  }
+}
